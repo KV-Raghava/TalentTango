@@ -36,9 +36,9 @@ def generate_initial_jd(role, min_exp, max_exp, requirements):
     prompt = (
         f"Draft a job description for a {role}. Thoroughly and carefully adjust the required skillsets and work exprience in the job description for {min_exp} to {max_exp} years of experience. Requirements: {requirements}"
         f"Style the job description that reflects a work culture of an IT startup: mordern and vibrant."
-        f"Mandatory instructions. Include these two paragraphs in the generated job description. About MINDSPRINT We help businesses with solutions for their transformation journeys and technology innovations. With deep domain knowledge and experience of over three decades, Mindsprint is a breeding ground for innovators, technology experts, business strategists, as well as young, fresh minds who think and breathe customer-centricity. WHY JOIN MINDSPRINT"
+        f"Mandatory instructions. Include these two paragraphs in the generated job description. About <company> We help businesses with solutions for their transformation journeys and technology innovations. With deep domain knowledge and experience of over three decades, <company> is a breeding ground for innovators, technology experts, business strategists, as well as young, fresh minds who think and breathe customer-centricity. WHY JOIN <company>"
         f"Freedom to innovate with a talented team People-oriented inclusive work culture Global exposure with infinite opportunities to grow Opportunity to work on advanced technologies A workplace that makes you feel at home"
-        f"Include, learn more about MINDSPRINT (https://www.mindsprint.org/)"
+        f"Include, learn more about <company> (https://www.<company>.org/)"
     )
     # try:
     #     model = GenerativeModel('gemini-pro')
